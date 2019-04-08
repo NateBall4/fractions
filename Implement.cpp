@@ -39,3 +39,13 @@ fraction fraction::operator-(fraction subtractMe) {
 
 
 }
+
+fraction fraction::operator*(fraction multiplytMe) {
+
+
+}
+
+fraction fraction::operator/(fraction divideMe) {
+
+
+}
