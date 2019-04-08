@@ -18,6 +18,8 @@ public:
 
 	fraction operator+(fraction addMe);
 	fraction operator-(fraction subtractMe);
+	fraction operator*(fraction multiplyMe);
+	fraction operator/(fraction dividetMe);
 
 	friend ostream& operator<<(ostream& outputStream, fraction& theFraction) {
 		outputStream << theFraction.numerator << endl;
